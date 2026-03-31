@@ -7,6 +7,6 @@ def index(request):
 
 
 def home(request):
-    return render(request, 'polls/homepage.html')
+    return render(request, 'homepage.html')
 
 # Create your views here.
